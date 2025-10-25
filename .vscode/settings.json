@@ -1,0 +1,15 @@
+{
+  "sqltools.connections": [
+    {
+      "ssh": "Disabled",
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 50394,
+      "driver": "PostgreSQL",
+      "database": "app",
+      "username": "app",
+      "name": "last stack postgress db",
+      "password": "!ChangeMe!"
+    }
+  ]
+}
