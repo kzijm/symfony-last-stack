@@ -4,7 +4,7 @@
       "ssh": "Disabled",
       "previewLimit": 50,
       "server": "localhost",
-      "port": 50394,
+      "port": 50562,
       "driver": "PostgreSQL",
       "database": "app",
       "username": "app",
