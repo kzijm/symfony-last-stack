@@ -31,6 +31,7 @@
                 </tr>
             </tbody>
         </table>
+        {# see tailwind plugin. default hidden, but when turbo-frame is set by the tailwind variant, then set to  display block.  #}
         <div class="mt-2 hidden turbo-frame:block">
             <a href="{{ path('app_homepage') }}">&lt;-- Back</a>
             <a data-turbo-frame="_top" href="{{ path('app_planet_edit', {'id': planet.id}) }}">Edit</a>
